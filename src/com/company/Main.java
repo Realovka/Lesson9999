@@ -34,10 +34,10 @@ public class Main {
             sum2 += array2[i];
         }
 
-        if (sum1 / array1.length > sum2 / array2.length) {
+        if ((double)(sum1) / array1.length > (double)(sum2) / array2.length) {
             System.out.println("Среднее арифметическое элементов первого массива больше, чем среднее" +
                     " арифметическое втрого массива");
-        } else if (sum1 / array1.length < sum2 / array2.length) {
+        } else if ((double)(sum1) / array1.length < (double)(sum2) / array2.length) {
             System.out.println("Среднее арифметическое элементов первого массива меньше, чем среднее " +
                     "арифметическое второго массива");
         } else {
